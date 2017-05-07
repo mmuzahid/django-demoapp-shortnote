@@ -1,0 +1,16 @@
+[
+   {
+      "model":"users.role",
+      "pk":1,
+      "fields":{
+         "rolename":"admin"
+      }
+   },
+   {
+      "model":"users.role",
+      "pk":2,
+      "fields":{
+         "rolename":"guest"
+      }
+   }
+]
