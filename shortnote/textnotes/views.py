@@ -25,13 +25,14 @@ def post_textnote(request):
     return HttpResponse(content='OK POST', status=HTTP_200_OK)
 
 
-def get_json_textnote_by_id(request, textnote_id):
+def get_json_textnote_by_user(request, user_id):
     try:
-        textnote = TextNote.objects.get(pk = textnote_id)
-        textnote_serializer = TextNoteSerializer(instance=textnote)
-        return JsonResponse(data=textnote_serializer.data)
-    except ObjectDoesNotExist:
-        return JsonResponse({'status': 'text note not found'}, status=HTTP_404_NOT_FOUND)
+        textnotes = TextNote.objects.filter(owner=user_id)
+        textnotes_serializer = TextNoteSerializer(textnotes, many=True)
+        return JsonResponse(data=textnotes_serializer.data,safe=False)
+    except BaseException as err:
+        return JsonResponse({'Error': str(err)}, status=HTTP_404_NOT_FOUND)
+
 
 def get_json_textnote_by_id(request, textnote_id):
     try:
