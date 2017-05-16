@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8997269d-cbfa-45d9-8617-d97258d1ca69" name="Default" comment="Added mysql DB configuration">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shortnote/textnotes/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shortnote/textnotes/serializers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shortnote/textnotes/views.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/shortnote/textnote/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/shortnote/textnote/views.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shortnote/settings.py" afterPath="$PROJECT_DIR$/shortnote/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shortnote/urls.py" afterPath="$PROJECT_DIR$/shortnote/urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/shortnote/textnote/__init__.py" afterPath="$PROJECT_DIR$/shortnote/textnotes/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/shortnote/textnote/admin.py" afterPath="$PROJECT_DIR$/shortnote/textnotes/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/shortnote/textnote/apps.py" afterPath="$PROJECT_DIR$/shortnote/textnotes/apps.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/shortnote/textnote/migrations/__init__.py" afterPath="$PROJECT_DIR$/shortnote/textnotes/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/shortnote/textnote/tests.py" afterPath="$PROJECT_DIR$/shortnote/textnotes/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/shortnote/textnote/urls.py" afterPath="$PROJECT_DIR$/shortnote/textnotes/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shortnote/textnotes/serializers.py" afterPath="$PROJECT_DIR$/shortnote/textnotes/serializers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shortnote/textnotes/urls.py" afterPath="$PROJECT_DIR$/shortnote/textnotes/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shortnote/textnotes/views.py" afterPath="$PROJECT_DIR$/shortnote/textnotes/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,8 +48,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shortnote/textnotes/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+            <state relative-caret-position="136">
+              <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -70,8 +60,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shortnote/textnotes/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="33" column="15" lean-forward="false" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+            <state relative-caret-position="68">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
               </folding>
@@ -92,8 +82,8 @@
       <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shortnote/textnotes/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -167,6 +157,7 @@
         <option value="$PROJECT_DIR$/shortnote/textnote/forms.py" />
         <option value="$PROJECT_DIR$/shortnote/settings.py" />
         <option value="$PROJECT_DIR$/shortnote/textnote/views.py" />
+        <option value="$PROJECT_DIR$/shortnote/textnotes/serializers.py" />
         <option value="$PROJECT_DIR$/shortnote/textnotes/urls.py" />
         <option value="$PROJECT_DIR$/shortnote/textnotes/views.py" />
       </list>
@@ -415,7 +406,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1364" height="726" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25339368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -424,7 +415,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35387325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35387325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -652,16 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shortnote/textnotes/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shortnote/textnotes/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -670,10 +651,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shortnote/textnotes/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shortnote/textnotes/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="136">
+          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
@@ -682,8 +673,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shortnote/textnotes/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="33" column="15" lean-forward="false" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+        <state relative-caret-position="68">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
           </folding>
