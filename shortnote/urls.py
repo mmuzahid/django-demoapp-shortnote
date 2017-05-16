@@ -3,5 +3,5 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^textnote/', include('shortnote.textnote.urls')),
+    url(r'^textnotes/', include('shortnote.textnotes.urls')),
 ]

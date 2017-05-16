@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class TextnoteConfig(AppConfig):
-    name = 'textnote'
+    name = 'textnotes'
